@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Restaurants</title>
+  <!-- link css files here -->
+  <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+</head>
+
+<body>
+  <!--include javascript files here -->
+  <script src="javascripts/jquery-3.3.1.js"></script>
+  <script src="javascripts/popper.min.js"></script>
+  <script src="javascripts/bootstrap.js"></script>
+  <!-- Navigation -->
+  <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+    <a class="navbar-brand" href="/">Restaurant餐廳</a>
+
+    <form class="form-inline my-2 my-lg-0" action="/search">
+      <input class="form-control mr-sm-2" name="keyword" type="search" placeholder="Search" value="{{keyword}}" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    </div>
+  </nav>
+  <!-- partial template will replace the part -->
+  <div class="container">
+    {{{body}}}
+  </div>
+
+
+</body>
+
+</html>
