@@ -1,7 +1,7 @@
 //reuire pachages used in the project
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 8080
 //require express-handlebars here
 const exphbs = require('express-handlebars')
 //require reataurant data
